@@ -7,7 +7,7 @@ from sklearn import preprocessing, model_selection, pipeline, compose, metrics, 
 from math import sqrt
 
 # Chargement des données
-df_vin = pd.read_csv(r"D:\Diginamic\2. Cours\34. Conception Et Developpement D'une IA\data_vin.csv")
+df_vin = pd.read_csv("data_vin.csv")
 
 # Remplacement des catégories par des valeurs numériques
 df_vin = df_vin.replace({"Vin amer": 0, "Vin equilibre": 1, "Vin sucre": 2})

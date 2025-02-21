@@ -6,7 +6,7 @@ def show():
     st.write("Embarquez pour un voyage interactif au cœur de la qualité du vin !")
     st.write("Découvrez cette application Streamlit au travers d'un jeu de données qui vous conduira sur les étapes clés d'un projet de Machine Learning, de la manipulation des données à la construction et à l'évaluation de modèles prédictifs.")
     
-    image = Image.open(r"D:\Diginamic\2. Cours\34. Conception Et Developpement D'une IA\Projet\Vins.jpg")
+    image = Image.open("Vins.jpg")
     new_size = (500, 350)  # Largeur, Hauteur
     resized_image = image.resize(new_size)
     
